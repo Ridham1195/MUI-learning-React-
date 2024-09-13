@@ -161,7 +161,7 @@ const Landing = () => {
             <img src={loginImage} alt="imag" />
           </Box>
         </>
-      ) : (
+      ) : (     // now, the isMobile condition is true
         <Box sx={{ height: "100%", width: "100vw", display:"flex" ,justifyContent:"center",alignItems:"center" }}>
           <Box
             sx={{
