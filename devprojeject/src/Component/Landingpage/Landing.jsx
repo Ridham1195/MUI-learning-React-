@@ -150,16 +150,19 @@ const Landing = () => {
               </Button>
             </Box>
           </Box>
+          
           <Box
-            sx={{
-              height: "100%",
-              width: "70vw",
-              bgcolor: "#C2C2C2",
-              textAlign: "center",
-            }}
-          >
-            <img src={loginImage} alt="imag" />
-          </Box>
+              sx={{
+                height: "100%",
+                width: "70vw",
+                bgcolor: "#C2C2C2",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <img src={loginImage} alt="image" style={{ maxWidth: "100%" }} />
+            </Box>
         </>
       ) : (     // now, the isMobile condition is true
         <Box sx={{ height: "100%", width: "100vw", display:"flex" ,justifyContent:"center",alignItems:"center" }}>
